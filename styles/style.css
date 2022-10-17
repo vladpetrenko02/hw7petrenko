@@ -4,11 +4,15 @@ body{
     background-color: #EEEFF1;
 }
 
+header{
+    padding: 79px 0 151px 20.78125%;
+}
+
 nav{
     font-size: 16px;
     font-weight: 400;
     color: black;
-    margin: 79px 0 151px 20.78125%;
+    /* margin: 79px 0 151px 20.78125%; */
     width: 646px;
 }
 
