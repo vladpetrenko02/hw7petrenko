@@ -27,6 +27,10 @@ nav a{
     color: black;
 }
 
+nav a:hover{
+    color: #34547A;
+}
+
 ul{
     list-style-type: none;
     padding: 0;
@@ -44,10 +48,6 @@ nav ul li+li{
     padding-left: 42px;
 }
 
-.checked{
-    font-weight: 500;
-    color: #34547A;
-}
 
 .caption{
     padding: 72px 0 141px;
@@ -86,6 +86,10 @@ h1{
     text-transform: uppercase;
     letter-spacing: 0.1em;
     color: white;
+}
+
+.btn:hover{
+    background-color: #294d7a;
 }
 
 .about{
