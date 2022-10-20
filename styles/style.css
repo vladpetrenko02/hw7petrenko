@@ -5,7 +5,14 @@ body{
 }
 
 header{
-    padding: 79px 0 151px 20.78125%;
+    padding: 79px 0;
+}
+
+.container{
+    max-width: 1140px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
 }
 
 nav{
@@ -13,6 +20,11 @@ nav{
     font-weight: 400;
     color: black;
     width: 646px;
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
 }
 
 ul{
@@ -38,13 +50,15 @@ nav ul li+li{
 }
 
 .caption{
-    margin-left: calc(20.78125% - 4px);
-    width: 541px;
-    margin-bottom: 141px;
+    padding: 72px 0 141px;
     color: #727272;
     font-weight: 400;
     font-size: 16px;
     line-height: 26px;
+}
+
+.text-block{
+    max-width: 540px;
 }
 
 h1{
@@ -59,32 +73,31 @@ h1{
     margin: 60px 0 0 0 ;
 }
 
-.caption a{
+.btn{
     display: inline-block;
     width: 225px;
-    height: 65px;
+    padding: 23px 10px;
+    font-size: 16px;
+    line-height: 19px;
     margin-top: 80px;
     text-align: center;
     background-color: #34547A;
     text-decoration: none;
+    text-transform: uppercase;
     letter-spacing: 0.1em;
     color: white;
-}
-
-.caption a p{
-    margin: 19px 41px 20px 41px;
 }
 
 .about{
     background-color: #FFFFFF;
     text-align: center;
     color: #727272;
+    padding: 112px 0px 100px;
 }
 
 .about-div{
-    width: 540px;
+    max-width: 540px;
     margin: 0 auto;
-    padding: 112px 2px 100px 2px;
     line-height: 26px;
 }
 
@@ -100,13 +113,13 @@ h2{
 }
 
 .projects{
+    padding: 100px 0 ;
     background-color: #34547A;
 }
 
 .projects ul{
-    width: 1111px;
     margin: 0px auto;
-    padding: 100px 0 ;
+    
 }
 
 .projects ul li{
@@ -115,7 +128,7 @@ h2{
 }
 
 .projects ul li+li{
-    margin-left: 49px;
+    margin-left: 48px;
 }
 
 .content{
@@ -125,6 +138,7 @@ h2{
 }
 
 .title-frty{
+    display: block;
     padding: 3px 31px 7px 20px;
     font-weight: 500;
     font-size: 21px;
@@ -132,6 +146,7 @@ h2{
 }
 
 .title-prjt{
+    display: block;
     padding: 0 0 3px 20px;
     font-weight: 400;
     font-size: 16px;
@@ -145,12 +160,12 @@ h2{
     font-weight: 400;
     font-size: 16px;
     color: #727272;
+    padding: 100px 0 100px 0;
 }
 
 .how-do-work-text{
-    width: 540px;
+    max-width: 540px;
     margin: 0 auto;
-    padding: 100px 0 0 0;
 }
 
 .how-do-work h2{
@@ -167,7 +182,7 @@ h2{
 iframe{
     width: 1100px;
     height: 600px;
-    margin: 57px auto 100px auto;
+    margin: 57px auto 0 ;
     border: 0;
 }
 
@@ -176,7 +191,7 @@ footer{
     font-size: 21px;
     line-height: 21px;
     color: #FFFFFF;
-    padding: 50px 0 50px 21.1458333%;
+    padding: 50px 0;
 }
 
 h3{
