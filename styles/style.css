@@ -8,6 +8,12 @@ header{
     padding: 79px 0;
 }
 
+.wrapper{
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}   
+
 .container{
     max-width: 1140px;
     width: 100%;
